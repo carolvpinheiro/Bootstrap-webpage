@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Georges Garden Center</title>
+    <link href="scss/normalize.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link href="scss/styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="logo" href="index.html">
+                <img src="img/logo.pngX" alt="logo">
+            </a>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mb-2 ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">HOME</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            SHOP
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Plants</a></li>
+                            <li><a class="dropdown-item" href="#">Pots</a></li>
+                            <li><a class="dropdown-item" href="#">Garden tools</a></li>
+                            <li><a class="dropdown-item" href="#">Gifts</a></li>
+                            <li><a class="dropdown-item" href="#">Fertilisers</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">CONTACT</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header class="my-5">
+        <div class="p-5 text-center hero">
+            <h1>GEORGE'S GARDEN CENTER</h1>
+        </div>
+        <div class="header-about">
+            <p>
+                George's Garden Centre is a company specialising in organic gardening.
+            </p>
+            <p>
+                Our store offers a variety of products and services for those who want to create a green, organic
+                garden.
+            </p>
+        </div>
+    </header>
+    <main>
+        <section class="products">
+            <h2>Products</h2>
+            <div class="product-cards">
+
+            </div>
+        </section><!-- Carousel section -->
+        <section class="container">
+            <div class="row">
+                <div id="carouselExampleCaptions" class="carousel slide">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                            aria-label="Slide 4"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="img/carousel/carousel1.png" class="d-block w-100"
+                                alt="Weird upside down bear head">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h3>Check out testimonials from our clients! </h3>
+                                <p>Discover how our products can significantly benefit your organic garden.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/carousel/carousel2.jpg" class="d-block w-100" alt="Clouds">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h3>Britney Spears</h3>
+                                <p>“I love how George’s Garden Centre makes organic gardening accessible and effective.
+                                    I feel much more connected to nature.”</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/carousel/carousel3.jpg" class="d-block w-100" alt="Tiny camera">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h3>Greta Thunberg</h3>
+                                <p>“The sustainable approach of George’s Garden Centre shows that small actions can
+                                    create a big environmental impact.”</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/carousel/carousel4.jpg" class="d-block w-100" alt="Tiny camera">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h3>Tony Galati</h3>
+                                <p>“If you want quality and results, this is the right place. Truly organic products,
+                                    just the way I like it!” </p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <img src="img/logo.png" alt="logo">
+            <p>Since 2000</p>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
