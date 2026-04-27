@@ -9,22 +9,39 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link href="scss/styles.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aboreto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Aboreto&family=Geist:wght@100..900&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
         <div class="container">
-            <a class="logo" href="index.html">
-                <img src="img/logo.pngX" alt="logo">
+
+            <!-- Logo -->
+            <a href="index.html" class="navbar-brand">
+                <img class="logo" src="img/logo.png" alt="logo">
             </a>
+
+            <!-- Hamburger button -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Menu -->
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mb-2 ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="index.html">HOME</a>
+                <ul class="navbar-nav mb-2 mb-lg-0 ms-auto">
+
+                    <li class="nav-item pe-lg-5">
+                        <a class="nav-link active" href="index.html">HOME</a>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
+
+                    <li class="nav-item dropdown pe-lg-5">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
                             SHOP
                         </a>
                         <ul class="dropdown-menu">
@@ -35,37 +52,97 @@
                             <li><a class="dropdown-item" href="#">Fertilisers</a></li>
                         </ul>
                     </li>
-                    <li class="nav-item">
+
+                    <li class="nav-item pe-lg-5">
                         <a class="nav-link" href="about.html">ABOUT</a>
                     </li>
+
                     <li class="nav-item">
                         <a class="nav-link" href="contact.html">CONTACT</a>
                     </li>
+
                 </ul>
             </div>
         </div>
     </nav>
-    <header class="my-5">
-        <div class="p-5 text-center hero">
-            <h1>GEORGE'S GARDEN CENTER</h1>
+    <header>
+        <div class="full-width d-flex align-items-center pt-5">
+            <div class="container">
+                <div class="p-5 text-center hero text-black">
+                    <h1>GEORGE'S GARDEN CENTRE</h1>
+                </div>
+            </div>
         </div>
-        <div class="header-about">
-            <p>
-                George's Garden Centre is a company specialising in organic gardening.
-            </p>
-            <p>
-                Our store offers a variety of products and services for those who want to create a green, organic
-                garden.
-            </p>
+        <div class="index-content">
+            <div class="index-content full-width d-flex align-items-center justify-content-center"
+                style="background-image: url('/img/index-content.png');">
+                <div class="d-flex align-items-center justify-content-center">
+                    <div class="text-center hero text-white">
+                        <p>
+                            George's Garden Centre is a company specialising in organic gardening.
+                        </p>
+                        &nbsp;
+                        <p>
+                            Our store offers a variety of products and services for those who want to create a green,
+                            organic
+                            garden.
+                        </p>
+                    </div>
+                </div>
+            </div>
         </div>
     </header>
     <main>
-        <section class="products">
-            <h2>Products</h2>
+        <section class="m-5 products text-center">
+            <h2>PRODUCTS</h2>
             <div class="product-cards">
-
+                <div class="container py-5">
+                    <div class="row g-4 justify-content-center">
+                        <div class="plants-img col-12 col-sm-12 col-md-6 col-lg-4">
+                            <div class="card h-100">
+                                <div
+                                    class="card-body d-flex align-items-center justify-content-center text-center text-white">
+                                    <h3>PLANTS</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pots-img col-12 col-sm-12 col-md-6 col-lg-4">
+                            <div class="card h-100">
+                                <div
+                                    class="card-body d-flex align-items-center justify-content-center text-center text-white">
+                                    <h3>POTS</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tools-img col-12 col-sm-12 col-md-6 col-lg-4">
+                            <div class="card h-100">
+                                <div
+                                    class="card-body d-flex align-items-center justify-content-center text-center text-white">
+                                    <h3>GARDEN TOOLS</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="gifts-img col-12 col-sm-12 col-md-6 col-lg-4">
+                            <div class="card h-100">
+                                <div
+                                    class="card-body d-flex align-items-center justify-content-center text-center text-white">
+                                    <h3>GIFTS</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="fertilisers-img col-12 col-sm-12 col-md-6 col-lg-4">
+                            <div class="card h-100">
+                                <div
+                                    class="card-body d-flex align-items-center justify-content-center text-center text-white">
+                                    <h3>FERTILISERS</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </section><!-- Carousel section -->
+        </section>
+        <!-- Carousel section -->
         <section class="container">
             <div class="row">
                 <div id="carouselExampleCaptions" class="carousel slide">
@@ -81,7 +158,7 @@
                     </div>
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img src="img/carousel/carousel1.png" class="d-block w-100"
+                            <img src="img/carousel/carousel1.png" class="carousel-img d-block w-100"
                                 alt="Weird upside down bear head">
                             <div class="carousel-caption d-none d-md-block">
                                 <h3>Check out testimonials from our clients! </h3>
@@ -89,7 +166,7 @@
                             </div>
                         </div>
                         <div class="carousel-item">
-                            <img src="img/carousel/carousel2.jpg" class="d-block w-100" alt="Clouds">
+                            <img src="img/carousel/carousel2.jpg" class="carousel-img d-block w-100" alt="Clouds">
                             <div class="carousel-caption d-none d-md-block">
                                 <h3>Britney Spears</h3>
                                 <p>“I love how George’s Garden Centre makes organic gardening accessible and effective.
@@ -97,7 +174,7 @@
                             </div>
                         </div>
                         <div class="carousel-item">
-                            <img src="img/carousel/carousel3.jpg" class="d-block w-100" alt="Tiny camera">
+                            <img src="img/carousel/carousel3.jpg" class="carousel-img d-block w-100" alt="Tiny camera">
                             <div class="carousel-caption d-none d-md-block">
                                 <h3>Greta Thunberg</h3>
                                 <p>“The sustainable approach of George’s Garden Centre shows that small actions can
@@ -105,7 +182,7 @@
                             </div>
                         </div>
                         <div class="carousel-item">
-                            <img src="img/carousel/carousel4.jpg" class="d-block w-100" alt="Tiny camera">
+                            <img src="img/carousel/carousel4.jpg" class="carousel-img d-block w-100" alt="Tiny camera">
                             <div class="carousel-caption d-none d-md-block">
                                 <h3>Tony Galati</h3>
                                 <p>“If you want quality and results, this is the right place. Truly organic products,
@@ -127,15 +204,15 @@
             </div>
         </section>
     </main>
-    <footer>
-        <div class="footer">
-            <img src="img/logo.png" alt="logo">
+    <footer class="bg-body-tertiary text-center">
+        <div class="footer p-3">
+            <img class="logo text-center" src="img/logo.png" alt="logo">
             <p>Since 2000</p>
         </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-        crossorigin="anonymous"></script>
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous">
+        </script>
 </body>
 
 </html>
