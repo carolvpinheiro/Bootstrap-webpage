@@ -1,0 +1,156 @@
+.logo {
+  height: 66px;
+  width: 66px;
+}
+
+.navbar {
+  background-color: #44423E;
+  font-family: "Aboreto", system-ui;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+h1, h4 {
+  font-family: "Aboreto", system-ui;
+  font-weight: 128px;
+  font-style: normal;
+}
+
+h2, h3, p {
+  font-family: Garamond;
+  font-weight: 40px;
+  font-style: normal;
+}
+
+.header-title {
+  height: 600px;
+}
+
+.full-width {
+  background-size: cover; /* Scales image to fill container */
+  background-position: center; /* Keeps image centered */
+  background-repeat: no-repeat;
+  min-height: 280px;
+}
+
+.index-content {
+  height: 600px;
+}
+.index-content p {
+  width: 300px;
+}
+
+.product-cards {
+  height: 100%;
+}
+
+.plants-img div {
+  background-image: url(../img/products/plants.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 100px;
+  height: 320px;
+}
+
+@media (min-width: 789px) {
+  .plants-img {
+    height: 424px;
+  }
+}
+.pots-img div {
+  background-image: url(../img/products/pots.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 100px;
+  height: 320px;
+}
+
+@media (min-width: 789px) {
+  .pots-img {
+    height: 424px;
+  }
+}
+.tools-img div {
+  background-image: url(../img/products/tools.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 100px;
+  height: 320px;
+}
+
+@media (min-width: 789px) {
+  .tools-img {
+    height: 424px;
+  }
+}
+.gifts-img div {
+  background-image: url(../img/products/gifts.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 100px;
+  height: 320px;
+}
+
+@media (min-width: 789px) {
+  .gifts-img {
+    height: 424px;
+  }
+}
+.fertilisers-img div {
+  background-image: url(../img/products/fertilisers.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 100px;
+  height: 320px;
+}
+
+@media (min-width: 789px) {
+  .fertilisers-img {
+    height: 424px;
+  }
+}
+.carousel-img, .video-content {
+  height: 300px;
+}
+
+@media (min-width: 789px) {
+  .carousel-img {
+    height: 500px;
+  }
+}
+@media (min-width: 943px) {
+  .carousel-img {
+    height: 680px;
+  }
+}
+.about-content {
+  background-color: #7d7662;
+}
+
+.contact-btn {
+  font-family: "Aboreto", system-ui;
+  background: #E1DBCB;
+  height: 48px;
+}
+
+.video-body {
+  background-color: #EEEEEB;
+}
+
+.footer {
+  background-color: #E1DBCB;
+}
+.footer p {
+  font-family: "Aboreto", system-ui;
+}/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,110 @@
+@use 'variables';
+
+.logo {
+    height: 66px;
+    width: 66px;
+}
+
+.navbar {
+    background-color: variables.$nav-background;
+    font-family: variables.$header-font;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+h1, h4 {
+    font-family: variables.$header-font;
+    font-weight: 128px;
+    font-style: normal;
+}
+
+h2, h3, p {
+    font-family: Garamond;
+    font-weight: 40px;
+    font-style: normal;
+}
+
+.header-title {
+    height: 600px;
+}
+
+.full-width {
+    background-size: cover;       /* Scales image to fill container */
+    background-position: center;  /* Keeps image centered */
+    background-repeat: no-repeat;               
+    min-height: 280px;
+}
+
+.index-content {
+    height: 600px;
+    p {
+        width: 300px;
+    }
+}
+
+.product-cards {
+    height: 100%;
+}
+
+// Card variations
+@each $name, $path in variables.$products-img {
+    .#{$name}-img {
+        div {
+            background-image: url(#{$path});
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            min-height: 100px;
+            height: 320px;
+        }
+    }
+    @media (min-width:789px) {
+        .#{$name}-img {
+            height: 424px;
+        }
+    }
+}
+
+.carousel-img, .video-content {
+    height: 300px;
+}
+
+@media (min-width:789px) {
+    .carousel-img {
+        height: 500px;
+    }
+}
+
+@media (min-width:943px) {
+    .carousel-img {
+        height: 680px;
+    }
+}
+
+.about-content {
+    background-color: variables.$background-color1; 
+}
+
+.contact-btn {
+    font-family: variables.$header-font;
+    background: variables.$background-color2;
+    height: 48px;
+}
+
+.video-body {
+    background-color: variables.$background-color3;
+}
+  
+.footer {
+    background-color: variables.$background-color2;
+    p {
+        font-family: variables.$header-font;
+    }
+}
+
