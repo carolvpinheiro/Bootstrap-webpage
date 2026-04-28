@@ -41,6 +41,11 @@ h2, h3, p {
     min-height: 280px;
 }
 
+.products-header {
+    height: 300px;
+    background-position: top;
+}
+
 .index-content {
     height: 600px;
     p {
@@ -53,20 +58,35 @@ h2, h3, p {
 }
 
 // Card variations
+@mixin card-background($path){
+    div {
+        background-image: url(#{$path});
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        min-height: 100px;
+        height: 320px;
+    }
+}
+
 @each $name, $path in variables.$products-img {
     .#{$name}-img {
-        div {
-            background-image: url(#{$path});
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-position: center;
-            min-height: 100px;
-            height: 320px;
-        }
+        @include card-background($path)
     }
     @media (min-width:789px) {
         .#{$name}-img {
             height: 424px;
+        }
+    }
+}
+
+@each $name, $path in variables.$plants-img {
+    .#{$name}-img {
+        @include card-background($path);
+    }
+    @media (min-width:789px) {
+        .#{$name}-img {
+            height: 360px;
         }
     }
 }

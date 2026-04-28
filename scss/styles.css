@@ -39,6 +39,11 @@ h2, h3, p {
   min-height: 280px;
 }
 
+.products-header {
+  height: 300px;
+  background-position: top;
+}
+
 .index-content {
   height: 600px;
 }
@@ -118,6 +123,286 @@ h2, h3, p {
 @media (min-width: 789px) {
   .fertilisers-img {
     height: 424px;
+  }
+}
+.plant-1-img div {
+  background-image: url(../img/plants/plant-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 100px;
+  height: 320px;
+}
+
+@media (min-width: 789px) {
+  .plant-1-img {
+    height: 360px;
+  }
+}
+.plant-2-img div {
+  background-image: url(../img/plants/plant-2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 100px;
+  height: 320px;
+}
+
+@media (min-width: 789px) {
+  .plant-2-img {
+    height: 360px;
+  }
+}
+.plant-3-img div {
+  background-image: url(../img/plants/plant-3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 100px;
+  height: 320px;
+}
+
+@media (min-width: 789px) {
+  .plant-3-img {
+    height: 360px;
+  }
+}
+.plant-4-img div {
+  background-image: url(../img/plants/plant-4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 100px;
+  height: 320px;
+}
+
+@media (min-width: 789px) {
+  .plant-4-img {
+    height: 360px;
+  }
+}
+.plant-5-img div {
+  background-image: url(../img/plants/plant-5.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 100px;
+  height: 320px;
+}
+
+@media (min-width: 789px) {
+  .plant-5-img {
+    height: 360px;
+  }
+}
+.plant-6-img div {
+  background-image: url(../img/plants/plant-6.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 100px;
+  height: 320px;
+}
+
+@media (min-width: 789px) {
+  .plant-6-img {
+    height: 360px;
+  }
+}
+.plant-7-img div {
+  background-image: url(../img/plants/plant-7.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 100px;
+  height: 320px;
+}
+
+@media (min-width: 789px) {
+  .plant-7-img {
+    height: 360px;
+  }
+}
+.plant-8-img div {
+  background-image: url(../img/plants/plant-8.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 100px;
+  height: 320px;
+}
+
+@media (min-width: 789px) {
+  .plant-8-img {
+    height: 360px;
+  }
+}
+.plant-9-img div {
+  background-image: url(../img/plants/plant-9.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 100px;
+  height: 320px;
+}
+
+@media (min-width: 789px) {
+  .plant-9-img {
+    height: 360px;
+  }
+}
+.plant-10-img div {
+  background-image: url(../img/plants/plant-10.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 100px;
+  height: 320px;
+}
+
+@media (min-width: 789px) {
+  .plant-10-img {
+    height: 360px;
+  }
+}
+.plant-11-img div {
+  background-image: url(../img/plants/plant-11.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 100px;
+  height: 320px;
+}
+
+@media (min-width: 789px) {
+  .plant-11-img {
+    height: 360px;
+  }
+}
+.plant-12-img div {
+  background-image: url(../img/plants/plant-12.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 100px;
+  height: 320px;
+}
+
+@media (min-width: 789px) {
+  .plant-12-img {
+    height: 360px;
+  }
+}
+.plant-13-img div {
+  background-image: url(../img/plants/plant-13.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 100px;
+  height: 320px;
+}
+
+@media (min-width: 789px) {
+  .plant-13-img {
+    height: 360px;
+  }
+}
+.plant-14-img div {
+  background-image: url(../img/plants/plant-14.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 100px;
+  height: 320px;
+}
+
+@media (min-width: 789px) {
+  .plant-14-img {
+    height: 360px;
+  }
+}
+.plant-15-img div {
+  background-image: url(../img/plants/plant-15.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 100px;
+  height: 320px;
+}
+
+@media (min-width: 789px) {
+  .plant-15-img {
+    height: 360px;
+  }
+}
+.plant-16-img div {
+  background-image: url(../img/plants/plant-16.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 100px;
+  height: 320px;
+}
+
+@media (min-width: 789px) {
+  .plant-16-img {
+    height: 360px;
+  }
+}
+.plant-17-img div {
+  background-image: url(../img/plants/plant-17.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 100px;
+  height: 320px;
+}
+
+@media (min-width: 789px) {
+  .plant-17-img {
+    height: 360px;
+  }
+}
+.plant-18-img div {
+  background-image: url(../img/plants/plant-18.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 100px;
+  height: 320px;
+}
+
+@media (min-width: 789px) {
+  .plant-18-img {
+    height: 360px;
+  }
+}
+.plant-19-img div {
+  background-image: url(../img/plants/plant-19.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 100px;
+  height: 320px;
+}
+
+@media (min-width: 789px) {
+  .plant-19-img {
+    height: 360px;
+  }
+}
+.plant-20-img div {
+  background-image: url(../img/plants/plant-20.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 100px;
+  height: 320px;
+}
+
+@media (min-width: 789px) {
+  .plant-20-img {
+    height: 360px;
   }
 }
 .carousel-img, .video-content {
