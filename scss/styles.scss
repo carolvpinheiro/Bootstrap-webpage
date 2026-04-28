@@ -87,7 +87,7 @@ h2, h3, p {
     }
 }
 
-.about-content {
+.about-content, .form-contact {
     background-color: variables.$background-color1; 
 }
 
@@ -95,6 +95,7 @@ h2, h3, p {
     font-family: variables.$header-font;
     background: variables.$background-color2;
     height: 48px;
+    width: 400px;
 }
 
 .video-body {
